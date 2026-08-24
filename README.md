@@ -2,6 +2,12 @@
 
 > 从蒙德里安的画布到可触摸的实体模型 —— 一套 AI 辅助的参数化设计工作流 🏛️✨
 
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Rhino](https://img.shields.io/badge/Rhino-8-darkgray)
+![Grasshopper](https://img.shields.io/badge/Grasshopper-GhPython-green)
+![LLM](https://img.shields.io/badge/LLM-Claude%20%7C%20GPT%20%7C%20Gemini-8A2BE2)
+![Output](https://img.shields.io/badge/Output-3D%20Printed-orange)
+
 ## 为什么做这个项目
 
 在参数化设计（Rhino/Grasshopper）中，将二维图像（如抽象绘画、城市肌理、自然形态等）转化为三维几何形体是一个常见的设计起点。但在实际工作流中，设计师通常面临两个瓶颈：
