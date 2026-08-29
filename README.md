@@ -42,7 +42,7 @@ Cubist Fountain 探索多模态 AI 如何辅助设计师将抽象视觉参考转
 ### Physical Prototype｜实体原型
 
 <p align="center">
-  <img src="assets/prototype-photo-restored.jpg" alt="黑白实体模型与构件的俯拍照片" width="480">
+  <img src="assets/prototype-photo-landscape.jpg" alt="黑白实体模型与构件的横向俯拍照片" width="480">
 </p>
 
 实体模型及构件研究。照片仅进行了保守的降噪、色彩与对比度校正，未重构模型几何。
