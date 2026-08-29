@@ -73,9 +73,6 @@ Cubist Fountain 探索多模态 AI 如何辅助设计师将抽象视觉参考转
 
 让 AI 读取参考图像中的**几何逻辑**，而不是输出美术赏析。该阶段的产物是一份能够被设计师检查、也能够继续进入参数化建模的构成规则分析。
 
-<details>
-<summary><b>查看完整主线 Prompt</b></summary>
-
 ```text
 # Role
 你是一位精通建筑形式分析的建筑学者，熟悉参数化设计与形状文法
@@ -119,15 +116,10 @@ Cubist Fountain 探索多模态 AI 如何辅助设计师将抽象视觉参考转
    变量名 + 控制特征 + 建议取值范围。
 ```
 
-</details>
-
 <a id="design-rules"></a>
 ## 02 🧩 设计语法提取
 
 把视觉分析进一步整理成一份**可执行的生成规则清单**。这份清单是图像理解与代码生成之间的关键中间层。
-
-<details>
-<summary><b>查看完整主线 Prompt</b></summary>
 
 ```text
 # Role
@@ -172,15 +164,10 @@ Cubist Fountain 探索多模态 AI 如何辅助设计师将抽象视觉参考转
 | 固定值 / 参数（含范围） | 预期空间效果 |
 ```
 
-</details>
-
 <a id="code-generation"></a>
 ## 03 💻 代码生成
 
 将确认后的规则清单翻译为 Grasshopper / GhPython 逻辑。代码需要忠实对应规则，而不是重新解释设计。
-
-<details>
-<summary><b>查看完整主线 Prompt</b></summary>
 
 ```text
 # Role
@@ -231,15 +218,10 @@ IronPython 与 Rhino 8 Python 3 的 API 差异，并熟悉布尔运算、类型�
 4. 一句预期形态描述，用于核对方向是否跑偏。
 ```
 
-</details>
-
 <a id="ai-rendering"></a>
 ## 04 🎨 AI 渲染
 
 将 Rhino / Grasshopper 素模转化为展示图。该阶段的优先级是**保持几何真实**，材质与氛围位于其后。
-
-<details>
-<summary><b>查看完整主线 Prompt</b></summary>
 
 ```text
 # Role
@@ -286,15 +268,10 @@ atmosphere, but never redesign its geometry.
    确认哪些几何保持不变，以及实际添加了哪些材质。
 ```
 
-</details>
-
 <a id="fabrication"></a>
 ## 05 🖨️ 3D 打印
 
 参数化几何在输出实体模型前，需要从视觉逻辑转换为可制造几何。
-
-<details>
-<summary><b>查看打印前检查清单</b></summary>
 
 - 确认所有实体封闭且法线方向一致。
 - 检查最小壁厚、悬挑角度与细长构件的稳定性。
@@ -304,8 +281,6 @@ atmosphere, but never redesign its geometry.
 - 根据打印方向评估支撑数量和表面质量。
 - 将过长或脆弱构件拆分为可装配模块。
 - 导出 STL 前再次检查整体尺寸与网格质量。
-
-</details>
 
 <a id="method"></a>
 ## 🧠 核心方法
