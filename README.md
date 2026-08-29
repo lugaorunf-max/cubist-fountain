@@ -8,7 +8,9 @@
 ![LLM](https://img.shields.io/badge/LLM-Claude%20%7C%20GPT%20%7C%20Gemini-8A2BE2)
 ![Output](https://img.shields.io/badge/Output-3D%20Printed-orange)
 
-![Cubist Fountain 项目四阶段工作流](assets/workflow-overview.png)
+<p align="center">
+  <img src="assets/workflow-overview.png" alt="Cubist Fountain 项目四阶段工作流" width="850">
+</p>
 
 <a id="overview"></a>
 ## 📖 项目概览
@@ -22,21 +24,26 @@ Cubist Fountain 探索多模态 AI 如何辅助设计师将抽象视觉参考转
 <a id="showcase"></a>
 ## 🎬 成果展示
 
-### Assembly｜模块拼合
-
-![模块从分解状态逐步拼合为完整模型](assets/assembly.gif)
-
-模块沿垂直方向逐步落位，形成最终构图。
-
-### Rotation｜旋转展示
-
-![完整模型旋转展示](assets/rotation.gif)
-
-完整模型进行一轮连续旋转，用于观察整体形态与空间层次。
+<table>
+  <tr>
+    <th>Assembly｜模块拼合</th>
+    <th>Rotation｜旋转展示</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/assembly.gif" alt="模块从分解状态逐步拼合为完整模型" width="420"></td>
+    <td align="center"><img src="assets/rotation.gif" alt="完整模型旋转展示" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center">模块沿垂直方向逐步落位，形成最终构图。</td>
+    <td align="center">完整模型进行一轮连续旋转，展示整体形态与空间层次。</td>
+  </tr>
+</table>
 
 ### Physical Prototype｜实体原型
 
-![黑白实体模型与构件的俯拍照片](assets/prototype-photo-restored.jpg)
+<p align="center">
+  <img src="assets/prototype-photo-restored.jpg" alt="黑白实体模型与构件的俯拍照片" width="480">
+</p>
 
 实体模型及构件研究。照片仅进行了保守的降噪、色彩与对比度校正，未重构模型几何。
 
